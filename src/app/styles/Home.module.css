@@ -1,0 +1,219 @@
+.container {
+  background: #000; /* Fundo preto */
+  color: #fff; /* Texto branco */
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Fonte moderna e limpa */
+  position: relative; /* Para posicionar o menu corretamente */
+}
+
+.header {
+  padding: 20px 40px;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.desktopTabs {
+  display: flex;
+  gap: 20px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+}
+
+.tab:hover {
+  color: #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+.activeTab {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  font-weight: 600;
+}
+
+.menuIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none; /* Oculto por padrão em desktop */
+}
+
+.menuIcon:hover {
+  color: #ccc;
+}
+
+.mobileTabs {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  display: none; /* Oculto por padrão em desktop */
+}
+
+.section {
+  padding: 40px 20px; /* Espaçamento inspirado em mobiles */
+  max-width: 1200px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.section:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.projectCard {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.projectCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.projectCard .projectTitle {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.projectCard p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.projectCard a {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.projectCard a:hover {
+  background: #ccc;
+  transform: scale(1.05);
+}
+
+.link {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #ccc;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .desktopTabs {
+    display: none; /* Oculta as abas fixas em telas pequenas */
+  }
+
+  .menuIcon {
+    display: block; /* Mostra o ícone de menu em telas pequenas */
+  }
+
+  .mobileTabs {
+    display: flex; /* Mostra o menu dropdown em telas pequenas */
+  }
+
+  .header {
+    padding: 15px 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section {
+    padding: 20px 10px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .projectCard {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  .menuIcon {
+    display: none; /* Oculta o ícone de menu em telas grandes */
+  }
+
+  .mobileTabs {
+    display: none; /* Oculta o menu dropdown em telas grandes */
+  }
+}
