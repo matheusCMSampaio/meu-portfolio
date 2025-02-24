@@ -1,11 +1,11 @@
 .container {
-  background: #000; /* Fundo preto */
-  color: #fff; /* Texto branco */
+  background: #000;
+  color: #fff;
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif; /* Fonte moderna e limpa */
-  position: relative; /* Para posicionar o menu corretamente */
+  font-family: 'Inter', sans-serif; 
+  position: relative; 
 }
 
 .header {
@@ -65,7 +65,7 @@
   font-size: 24px;
   cursor: pointer;
   transition: all 0.3s ease;
-  display: none; /* Oculto por padrão em desktop */
+  display: none; 
 }
 
 .menuIcon:hover {
@@ -85,11 +85,11 @@
   gap: 10px;
   z-index: 1000;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-  display: none; /* Oculto por padrão em desktop */
+  display: none; 
 }
 
 .section {
-  padding: 40px 20px; /* Espaçamento inspirado em mobiles */
+  padding: 40px 20px; 
   max-width: 1200px;
   margin: 0 auto;
   transition: all 0.3s ease;
@@ -173,18 +173,18 @@
   color: #ccc;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   .desktopTabs {
-    display: none; /* Oculta as abas fixas em telas pequenas */
+    display: none;
   }
 
   .menuIcon {
-    display: block; /* Mostra o ícone de menu em telas pequenas */
+    display: block;
   }
 
   .mobileTabs {
-    display: flex; /* Mostra o menu dropdown em telas pequenas */
+    display: flex; 
   }
 
   .header {
@@ -210,10 +210,30 @@
 
 @media (min-width: 769px) {
   .menuIcon {
-    display: none; /* Oculta o ícone de menu em telas grandes */
+    display: none; 
   }
 
   .mobileTabs {
-    display: none; /* Oculta o menu dropdown em telas grandes */
+    display: none; 
   }
 }
+
+
+
+.contact {
+  font-size: 1.1rem;
+  color: #ccc; 
+  line-height: 1.6; 
+  text-align: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #ccc;
+}
+
