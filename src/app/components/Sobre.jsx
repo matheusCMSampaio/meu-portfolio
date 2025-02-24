@@ -6,13 +6,9 @@ export default function Sobre() {
     <section className={styles.section}>
       <h2 className={styles.heading}>Sobre Mim</h2>
       <p>
-      Estudante de Análise e Desenvolvimento de Sistemas (4º semestre) com vasta experiência em linguagens de programação como Java, SpringBoot, Kotlin, ReactNative, Python e JavaScript. Sou apaixonado por desenvolvimento e computação, tenho conhecimentos em programação Cloud e API RESTful.
-      </p>
+        Sou formado em Análise e Desenvolvimento de Sistemas e apaixonado por tecnologia e programação. Durante o curso, trabalhei bastante com linguagens como Java, SpringBoot, Kotlin, ReactNative, Python e JavaScript, além de ter me aprofundado em programação Cloud e APIs RESTful. Tive a chance de participar de projetos incríveis, como um Challenge acadêmico com a Porto Seguro, onde desenvolvi uma API REST em Java para cadastrar seguros de bicicletas. Foram 4 sprints ao longo de um ano, e isso me ensinou a colaborar em equipe, resolver problemas na hora e entregar um código bem-feito.</p>
       <p>
-        Durante meus estudos trabalhei em projetos complexos, inclusive Challenge com a Porto Seguro de forma acadêmica, construí uma API Rest em Java para cadastrar seguros de bicicletas. O projeto foi dividido em 4 sprints durante todo o ano, melhorando minhas habilidades de colaboração, fornecendo soluções rápidas e focando na qualidade do código.
-      </p>
-      <p>
-      Atualmente estou em busca de uma oportunidade para aplicar e ampliar meus conhecimentos na área de tecnologia, com forte ênfase na área de programação/desenvolvimento. Interessado em adquirir experiência prática e participação em projetos únicos e dinâmicos
+        Agora, estou atrás de uma oportunidade para usar o que aprendi e crescer ainda mais. Quero me envolver em projetos desafiadores e inovadores, colocar a mão na massa e ganhar experiência prática no dia a dia. Meu foco é a área de programação e desenvolvimento, onde acredito que posso contribuir de verdade – e, claro, continuar aprendendo no processo.
       </p>
     </section>
   );
