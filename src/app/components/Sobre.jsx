@@ -6,9 +6,13 @@ export default function Sobre() {
     <section className={styles.section}>
       <h2 className={styles.heading}>Sobre Mim</h2>
       <p>
-        Sou Matheus Sampaio, estudante de Análise e Desenvolvimento de Sistemas (4º semestre), com forte experiência em linguagens de programação como Java, Spring Boot, Kotlin, React Native, Python e JavaScript. Sou apaixonado por desenvolvimento e computação, com expertise em programação Azure Cloud e API RESTful.  
-        Durante meus estudos, trabalhei em projetos complexos, incluindo o renomado projeto "Problema" em parceria com a Porto Seguro, onde construí uma API REST em Java para cadastrar seguros de automóveis. Esse projeto, dividido em 4 partes ao longo de um ano, aprimorou minhas habilidades de colaboração, proporcionou soluções rápidas e reforçou meu foco na qualidade do código.  
-        Atualmente, estou em busca de uma oportunidade para aplicar e expandir meus conhecimentos na área de tecnologia, com ênfase em desenvolvimento e computação. Tenho grande interesse em adquirir experiência prática e participar de projetos únicos e dinâmicos.
+      Estudante de Análise e Desenvolvimento de Sistemas (4º semestre) com vasta experiência em linguagens de programação como Java, SpringBoot, Kotlin, ReactNative, Python e JavaScript. Sou apaixonado por desenvolvimento e computação, tenho conhecimentos em programação Cloud e API RESTful.
+      </p>
+      <p>
+        Durante meus estudos trabalhei em projetos complexos, inclusive Challenge com a Porto Seguro de forma acadêmica, construí uma API Rest em Java para cadastrar seguros de bicicletas. O projeto foi dividido em 4 sprints durante todo o ano, melhorando minhas habilidades de colaboração, fornecendo soluções rápidas e focando na qualidade do código.
+      </p>
+      <p>
+      Atualmente estou em busca de uma oportunidade para aplicar e ampliar meus conhecimentos na área de tecnologia, com forte ênfase na área de programação/desenvolvimento. Interessado em adquirir experiência prática e participação em projetos únicos e dinâmicos
       </p>
     </section>
   );
