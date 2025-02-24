@@ -7,7 +7,15 @@
   font-family: 'Inter', sans-serif; 
   position: relative; 
 }
-
+.languageBadge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 5px;
+  font-size: 0.9rem;
+  color: #fff;
+}
 .header {
   padding: 20px 40px;
   text-align: center;
