@@ -96,6 +96,102 @@
   display: none; 
 }
 
+.hero {
+  padding: 60px 20px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heroEyebrow {
+  font-size: 1rem;
+  color: #ccc;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.heroName {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 0 8px;
+  color: #fff;
+}
+
+.heroRole {
+  font-size: 1.3rem;
+  color: #ddd;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.heroStack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.stackBadge {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.heroCtas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.ctaPrimary, .ctaSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.ctaPrimary {
+  background: #fff;
+  color: #000;
+}
+
+.ctaPrimary:hover {
+  background: #ccc;
+  transform: translateY(-2px);
+}
+
+.ctaSecondary {
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+
+.ctaSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .heroName {
+    font-size: 2.1rem;
+  }
+
+  .heroRole {
+    font-size: 1.05rem;
+  }
+}
+
 .section {
   padding: 40px 20px; 
   max-width: 1200px;

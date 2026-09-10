@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Projetos from './components/Projetos';
 import Sobre from './components/Sobre';
 import Contato from './components/Contato';
+import Hero from './components/Hero';
 import { FaBars } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import styles from './styles/Home.module.css';
@@ -72,6 +73,7 @@ export default function Home() {
           ))}
         </nav>
       )}
+      <Hero />
       <main>
         <AnimatePresence mode="wait">
           {activeTab === 'sobre' && (
