@@ -267,6 +267,40 @@
   transform: scale(1.05);
 }
 
+.projectCardDestaque {
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.16);
+  position: relative;
+}
+
+.projectCardDestaque::before {
+  content: "Destaque";
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: #fff;
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.projectLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.projectLinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .link {
   color: #fff;
   text-decoration: underline;
