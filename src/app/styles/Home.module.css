@@ -301,6 +301,60 @@
   gap: 6px;
 }
 
+.contactIntro {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 30px;
+  font-size: 1.05rem;
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contactCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.25s ease;
+}
+
+.contactCard:hover {
+  background: rgba(255, 255, 255, 0.18);
+  transform: translateY(-4px);
+}
+
+.contactIcon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+
+.contactLabel {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ccc;
+  margin-bottom: 4px;
+}
+
+.contactValue {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
 .link {
   color: #fff;
   text-decoration: underline;
@@ -375,3 +429,86 @@
   color: #ccc;
 }
 
+.contactFormContainer {
+  margin-top: 50px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactFormContainer h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.contactFormContainer p {
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formGroup label {
+  font-weight: 600;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: 0.2s;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #25D366;
+}
+
+.formGroup textarea {
+  resize: vertical;
+}
+
+.whatsappButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 15px 25px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #25D366;
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.whatsappButton:hover {
+  transform: translateY(-2px);
+  filter: brightness(0.95);
+}
+
+.whatsappButton svg {
+  font-size: 1.3rem;
+}
