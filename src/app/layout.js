@@ -7,7 +7,7 @@ export const metadata = {
   metadataBase: new URL('https://portfolio-matheuscmsampaios-projects.vercel.app'),
   title: 'Matheus Sampaio | Desenvolvedor Full Stack (Java + React)',
   description:
-    'Portfólio de Matheus Sampaio, desenvolvedor Full Stack especializado em Java, Spring Boot e React. Confira projetos, stack técnica e formas de contato.',
+    'Sou o Matheus, desenvolvedor Full Stack com foco em Java e Spring Boot. Aqui você encontra os projetos que já fiz, as tecnologias que uso e um jeito rápido de falar comigo.',
   keywords: [
     'Matheus Sampaio',
     'Desenvolvedor Java',
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: 'Matheus Sampaio | Desenvolvedor Full Stack (Java + React)',
     description:
-      'Confira meus projetos, stack técnica e formas de contato neste portfólio.',
+      'Meus projetos, as tecnologias que uso no dia a dia e um jeito rápido de entrar em contato comigo.',
     url: 'https://portfolio-matheuscmsampaios-projects.vercel.app',
     siteName: 'Matheus Sampaio - Portfólio',
     images: [
@@ -37,7 +37,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Matheus Sampaio | Desenvolvedor Full Stack (Java + React)',
     description:
-      'Confira meus projetos, stack técnica e formas de contato neste portfólio.',
+      'Meus projetos, as tecnologias que uso no dia a dia e um jeito rápido de entrar em contato comigo.',
     images: ['/og-image.png'],
   },
 };
